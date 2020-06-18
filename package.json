@@ -1,6 +1,6 @@
 {
 	"name": "cycle-image-loading-driver",
-	"version": "1.3.2",
+	"version": "1.3.3",
 	"description": "A cycle.js driver for preloading images",
 	"source": "src/index.js",
 	"main": "dist/image-loading-driver.js",
