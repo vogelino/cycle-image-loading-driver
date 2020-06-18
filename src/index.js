@@ -1,5 +1,4 @@
 import { from, Subject } from 'rxjs'
-import { adapt } from '@cycle/run/lib/adapt'
 
 const loadImage = (src) =>
 	new Promise((resolve, reject) => {
@@ -35,7 +34,7 @@ export const makeImageLoaderDriver = () => {
 			},
 		})
 
-		return adapt(source$)
+		return source$
 	}
 
 	return imageLoaderDriver

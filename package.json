@@ -17,7 +17,6 @@
 		"microbundle": "^0.12.1"
 	},
 	"dependencies": {
-		"@cycle/run": "^5.4.0",
 		"rxjs": "^6.5.5"
 	}
 }
