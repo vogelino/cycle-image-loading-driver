@@ -8,7 +8,7 @@ const loadImage = (src) =>
 		img.src = src
 	})
 
-export const makeImageLoaderDriver = () => {
+export const makeImageLoadingDriver = () => {
 
 	const imageLoaderDriver = (sink$) => {
 		const imageCache = {}
@@ -39,3 +39,5 @@ export const makeImageLoaderDriver = () => {
 
 	return imageLoaderDriver
 }
+
+export default makeImageLoadingDriver

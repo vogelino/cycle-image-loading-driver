@@ -1,6 +1,6 @@
 {
 	"name": "cycle-image-loading-driver",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "A cycle.js driver for preloading images",
 	"source": "src/index.js",
 	"main": "dist/image-loading-driver.js",
@@ -18,5 +18,8 @@
 	},
 	"dependencies": {
 		"rxjs": "^6.5.5"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
 	}
 }
