@@ -1,5 +1,5 @@
 {
-	"name": "cycle-image-loading-driver",
+	"name": "@vogelino/cycle-image-loading-driver",
 	"version": "1.4.0",
 	"description": "A cycle.js driver for preloading images",
 	"source": "src/index.js",
@@ -23,5 +23,7 @@
 		"type": "git",
 		"url": "https://github.com/vogelino/cycle-image-loading-driver"
 	},
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" }
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	}
 }
