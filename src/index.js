@@ -39,5 +39,3 @@ export const makeImageLoadingDriver = () => {
 
 	return imageLoaderDriver
 }
-
-export default makeImageLoadingDriver
