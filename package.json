@@ -1,0 +1,23 @@
+{
+	"name": "cycle-image-loading-driver",
+	"version": "1.0.0",
+	"description": "A cycle.js driver for preloading images",
+	"source": "src/index.js",
+	"main": "dist/image-loading-driver.js",
+	"module": "dist/image-loading-driver.module.js",
+	"unpkg": "dist/image-loading-driver.umd.js",
+	"scripts": {
+		"build": "microbundle",
+		"dev": "microbundle watch"
+	},
+	"keywords": [],
+	"author": "Lucas Vogel <contact@vogelino.com> (https://vogelino.com/)",
+	"license": "MIT",
+	"devDependencies": {
+		"microbundle": "^0.12.1"
+	},
+	"dependencies": {
+		"@cycle/run": "^5.4.0",
+		"rxjs": "^6.5.5"
+	}
+}
