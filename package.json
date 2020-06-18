@@ -18,8 +18,5 @@
 	},
 	"dependencies": {
 		"rxjs": "^6.5.5"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
 	}
 }
