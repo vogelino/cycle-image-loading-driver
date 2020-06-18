@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/cycle-image-loading-driver.svg?style=flat)](https://npmjs.org/package/cycle-image-loading-driver 'View this project on npm')
+
 # [Cycle.js driver](https://cycle.js.org/drivers.html) for preloading images
 
 This driver takes in a sink stream of images to load and returns a source stream that emits whenever an image is loaded.
